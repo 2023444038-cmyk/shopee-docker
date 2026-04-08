@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: shopee-absa
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: MODEL_GDRIVE_ID
+        sync: false
+      - key: TOKENIZER_GDRIVE_ID
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true

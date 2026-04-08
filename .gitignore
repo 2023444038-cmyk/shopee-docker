@@ -1,0 +1,10 @@
+# Jangan push ke GitHub
+.env
+*.h5
+*.keras
+*.pickle
+*.csv
+__pycache__/
+*.pyc
+.venv/
+venv/
